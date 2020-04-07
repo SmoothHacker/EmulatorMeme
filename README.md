@@ -1,2 +1,2 @@
 # Blue-World
-An Attempt at an ARM Emulator
+An attempt at making an Intel 8080 emulator
