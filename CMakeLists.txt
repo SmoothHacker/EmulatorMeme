@@ -3,4 +3,4 @@ project(Blue_World)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Blue_World main.cpp)
+add_executable(Blue_World src/main.cpp)
