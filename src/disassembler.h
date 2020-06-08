@@ -1,14 +1,16 @@
-//
-// Created by scott on 5/13/20.
-//
-
-#ifndef BLUE_WORLD_DISASSEMBLER_H
-#define BLUE_WORLD_DISASSEMBLER_H
-
+#pragma once
+#include <vector>
+#include <fstream>
+#include <string>
+#include <map>
 
 class disassembler {
+public:
+    unsigned char *programBuffer;
+    int pc;
+    int fileSize; // Number of Bytes
 
+    void fileProcessor(FILE *fileInput);
+    int disassembleToConsole();
+    disassembler();
 };
-
-
-#endif //BLUE_WORLD_DISASSEMBLER_H
