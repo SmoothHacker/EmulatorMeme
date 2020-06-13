@@ -1,14 +1,9 @@
-//
-// Created by scott on 5/9/20.
-//
-
-#ifndef BLUE_WORLD_BLUEWORLD_H
-#define BLUE_WORLD_BLUEWORLD_H
-
+#include <iostream>
+#include <cstring>
 
 class BlueWorld {
-
+    struct cpu8080{
+        unsigned char a, b, c;
+    };
 };
 
-
-#endif //BLUE_WORLD_BLUEWORLD_H
