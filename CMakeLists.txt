@@ -3,4 +3,5 @@ project(Blue_World)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Blue_World src/main.cpp src/BlueWorld.cpp src/BlueWorld.h src/disassembler.cpp src/disassembler.h)
+add_executable(Blue_World src/BlueWorld.cpp src/BlueWorld.h)
+add_executable(disassembler src/disassembler.cpp src/disassembler.h src/main_disassembler.cpp)
