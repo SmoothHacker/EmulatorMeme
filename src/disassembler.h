@@ -11,6 +11,6 @@ public:
     int fileSize; // Number of Bytes
 
     void fileProcessor(FILE *fileInput);
-    int disassembleToConsole();
+    int disassembleToConsole() const;
     disassembler();
 };
