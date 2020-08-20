@@ -6,9 +6,9 @@
 
 class disassembler {
 public:
-    unsigned char *programBuffer;
+    unsigned char *programBuffer{};
     int pc;
-    int fileSize; // Number of Bytes
+    int fileSize{}; // Number of Bytes
 
     void fileProcessor(FILE *fileInput);
     int disassembleToConsole() const;
